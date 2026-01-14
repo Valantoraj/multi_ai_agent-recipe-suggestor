@@ -2,7 +2,7 @@ from google.adk.agents.llm_agent import Agent
 
 root_agent = Agent(
     model='gemini-2.5-flash',
-    name='ContextAgent',
+    name='PreferenceAgent',
     description='A helpful assistant for user food related questions.',
     instruction="""
     Classify food preferences from user text.
